@@ -96,6 +96,31 @@ img {
     }
 }
 
+@media only screen and (max-width: 600px) {
+    .choice {
+        height: 100px;
+        width: 100px;
+    }
+
+    img {
+        height: 90px;
+        width: 90px;
+        display: flex;
+    }
+
+    .choices {
+        flex-direction: column;
+    }
+
+    .score-board {
+        flex-direction: column;
+    }
+
+    #msg {
+        font-size: 1.5rem;
+    }
+}
+
 @media only screen and (max-width: 480px) {
     h1 {
         font-size: 1.5rem;
